@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="LMS.UserControls.UserControlNotifications"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LMS.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"  Height="708" Width="1408">
+    <Grid Background="White" Margin="0,-1,0,1">
+        <Button x:Name="btn_acceptrequesr" Margin="36,75,1250,601" IsEnabled="False" Click="btn_acceptrequesr_Click_1" >قبول الحجز</Button>
+        <Canvas  Background="#FFF1F1F1" Height="34" VerticalAlignment="Top" Margin="572,82,482,0" HorizontalAlignment="Stretch">
+            <Button x:Name="btn_request" Click="btn_request_Click" Content="قائمة طلبات الحجز" Background="#FFF1F1F1" Foreground="#FF5C99D6" />
+            <TextBlock Foreground="Black" HorizontalAlignment="Right" Canvas.Left="326" Canvas.Top="11" RenderTransformOrigin="-4.658,0.627"><Run FlowDirection="RightToLeft" Text="لديك" FontStyle="Normal"  FontWeight="Bold"/></TextBlock>
+            <Border BorderBrush="#FF5C99D6" CornerRadius="10 " BorderThickness="5" Height="34" Width="36" Canvas.Left="289" Canvas.Top="-1">
+                <TextBlock x:Name="txt_requestnumber" Foreground="Black" HorizontalAlignment="Right" Canvas.Left="692" Canvas.Top="11" RenderTransformOrigin="1.042,1.062" Margin="0,3,10,-3"><Run FlowDirection="RightToLeft" Text="0"/></TextBlock>
+            </Border>
+            <TextBlock Foreground="Black" HorizontalAlignment="Right" Canvas.Left="201" Canvas.Top="8"><Run FlowDirection="RightToLeft" Text="من طلبات الحجز " FontStyle="Normal"  FontWeight="Bold"/></TextBlock>
+        </Canvas>
+        <Border Margin="931,82,466,592" RenderTransformOrigin="0.5,0.5" Background="#FFFF1700" BorderThickness="0" />
+        <TextBlock Foreground="Red" HorizontalAlignment="Right" Width="90" Margin="0,10,668,678"><Run FontWeight="Bold" FontStyle="Normal" FlowDirection="RightToLeft" Text="قائمة الإشعارات"/></TextBlock>
+        <DataGrid x:Name="dg_requests" FlowDirection="RightToLeft" Margin="355,267,479,0" Visibility="Collapsed" SelectionChanged="dg_requests_SelectionChanged" />
+        <DataGrid x:Name="grid_joining"  IsReadOnly="True" Visibility="Collapsed" HorizontalAlignment="Left" Height="431" Margin="391,267,0,0" VerticalAlignment="Top" Width="537" FlowDirection="RightToLeft" SelectionChanged="grid_joining_SelectionChanged"/>
+        <Button x:Name="btn_acceptjoining" Margin="180,75,1106,601" Content="قبول الانضمام" IsEnabled="False"  Click="btn_acceptjoining_Click" />
+        <Canvas  Background="#FFF1F1F1" Height="34" VerticalAlignment="Top" Margin="572,157,482,0" HorizontalAlignment="Stretch">
+            <Button x:Name="btn_joining" Click="btn_joining_Click" Content="قائمة طلبات الانضمام" Background="#FFF1F1F1" Foreground="#FF5C99D6" />
+            <TextBlock Foreground="Black" HorizontalAlignment="Right" Canvas.Left="326" Canvas.Top="11" RenderTransformOrigin="-4.658,0.627"><Run FlowDirection="RightToLeft" Text="لديك" FontStyle="Normal"  FontWeight="Bold"/></TextBlock>
+            <Border BorderBrush="#FF5C99D6" CornerRadius="10 " BorderThickness="5" Height="34" Width="36" Canvas.Left="289" Canvas.Top="-1">
+                <TextBlock x:Name="txt_joiningnumber" Foreground="Black" HorizontalAlignment="Right" Canvas.Left="692" Canvas.Top="11" RenderTransformOrigin="1.042,1.062" Margin="0,3,10,-3"><Run FlowDirection="RightToLeft" Text="0"/></TextBlock>
+            </Border>
+            <TextBlock Foreground="Black" HorizontalAlignment="Right" Canvas.Left="186" Canvas.Top="8"><Run FlowDirection="RightToLeft" Text="من طلبات الانضمام " FontStyle="Normal"  FontWeight="Bold"/></TextBlock>
+        </Canvas>
+        <Border Margin="931,157,466,517" RenderTransformOrigin="0.5,0.5" Background="#FFFF1700" BorderThickness="0" />
+
+
+
+    </Grid>
+</UserControl>

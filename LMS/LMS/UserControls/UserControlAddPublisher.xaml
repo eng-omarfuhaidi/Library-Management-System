@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="LMS.UserControlAddPublisher"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LMS"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" Height="723" Width="1250.5" Margin="0">
+    <UserControl.Resources>
+        <Style x:Key="txtbox" TargetType="TextBox">
+            <Setter Property="Foreground" Value="Black"></Setter>
+        </Style>
+        <Style x:Key="buttonstyle"  TargetType="Button">
+            <Setter Property="Background" Value="#FF2196F3">
+            </Setter>
+            <Setter Property="BorderBrush" Value="#FF2196F3"></Setter>
+            <Setter Property="Foreground" Value="#FFFFFFFF"></Setter>
+            <Setter Property="FontSize" Value="17"></Setter>
+        </Style>
+        <Style x:Key="startstyle" TargetType="Label">
+            <Setter  Property="Foreground" Value="#FFFF0101"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="Height" Value="27"></Setter>
+            <Setter Property="Width" Value="27"></Setter>
+        </Style>
+        <Style x:Key="textstyle" TargetType="Label">
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="FontFamily" Value="Segoe UI Semibold"></Setter>
+            <Setter Property="FontWeight" Value="Bold" ></Setter>
+        </Style>
+
+    </UserControl.Resources>
+    <Grid Margin="64,48,146,71" Background="White">
+        <Label Content="ادارة الناشرين" HorizontalAlignment="Right" Margin="0,3,2,0" VerticalAlignment="Top" RenderTransformOrigin="-0.533,0.577" Width="135" Height="40" FontSize="22" FontFamily="Segoe UI Semibold"/>
+        <Button x:Name="btn_updatepublisher" Content="تعديل" HorizontalAlignment="Left" Margin="772,431,0,0" VerticalAlignment="Top" Width="102" Height="47"  Click="btn_updatepublisher_Click"/>
+        <Button x:Name="btn_savepublisher" Content="حفظ" HorizontalAlignment="Left" Margin="571,309,0,0" VerticalAlignment="Top" Width="102" Height="47"   Click="btn_savepublisher_Click"/>
+        <GroupBox HorizontalAlignment="Left" Height="234" Margin="526,61,0,0" VerticalAlignment="Top" Width="393"  FontSize="13" FontFamily="Microsoft JhengHei UI" BorderThickness="10">
+            <GroupBox.Header>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20">
+
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" HorizontalAlignment="Right" Text="بيانات الإدخال" Foreground="White"></TextBlock>
+                </Grid>
+            </GroupBox.Header>
+            <Canvas Margin="0">
+                <Label Content="رقم التسجيل" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="274" Canvas.Top="-7" />
+                <Label Content="*" Canvas.Left="252"   Style="{StaticResource ResourceKey=startstyle}"/>
+                <TextBox x:Name="txt_publisherid" Height="25"  Canvas.Left="63" Width="189" IsReadOnly="True" Style="{StaticResource ResourceKey=txtbox}" Canvas.Top="2"/>
+                <Label Content="اسم الناشر" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="280" Canvas.Top="38" />
+                <Label Content="*" Canvas.Left="252" Canvas.Top="38"   Style="{StaticResource ResourceKey=startstyle}"/>
+                <TextBox x:Name="txt_publishername" Height="25"  Canvas.Left="63"  Canvas.Top="38" Width="189" IsReadOnly="False" Style="{StaticResource ResourceKey=txtbox}"/>
+                <Label Content="وصف الناشر" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="280" Canvas.Top="82" />
+                <TextBox x:Name="txt_pulisherdisc" Height="75"  Canvas.Left="63"  Canvas.Top="82" Width="189" IsReadOnly="False" TextWrapping="Wrap" Style="{StaticResource ResourceKey=txtbox}"/>
+
+            </Canvas>
+        </GroupBox>
+        <GroupBox HorizontalAlignment="Left" Height="498" Margin="133,61,0,0" VerticalAlignment="Top" Width="393"  FontSize="13" FontFamily="Microsoft JhengHei UI" BorderThickness="10">
+            <GroupBox.Header>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" HorizontalAlignment="Right" Text="استعراض الناشرين" Foreground="White"/>
+                </Grid>
+            </GroupBox.Header>
+            <Canvas Margin="0">
+                <Image Source="C:\Users\Omer Abdulhamid\Desktop\icons\search_filled_100px.png" Height="23" Width="40" Canvas.Left="105" Canvas.Top="11"></Image>
+                <TextBlock x:Name="txt_block" Height="19" Width="62" Text="...ابحث هنا" Canvas.Left="142" Canvas.Top="14" Foreground="Black"></TextBlock>
+                <TextBox x:Name="txt_publishersearch" Foreground="Black" Height="25"  Canvas.Left="142"  Width="134"  IsReadOnly="False" Canvas.Top="6" GotFocus="txt_publishersearch_GotFocus" LostFocus="txt_publishersearch_LostFocus"  TextChanged="txt_publishersearch_TextChanged"/>
+                <DataGrid x:Name="dg_publisher"  IsReadOnly="True"   Canvas.Left="10" Canvas.Top="39" Width="355" Height="393" MouseLeftButtonUp="dg_publisher_MouseLeftButtonUp" FlowDirection="RightToLeft"></DataGrid>
+
+            </Canvas>
+        </GroupBox>
+        <Button x:Name="btn_newpublisher" Content="جديد" HorizontalAlignment="Left" Margin="772,309,0,0" VerticalAlignment="Top" Width="102" Height="47"  Click="btn_newpublisher_Click" />
+        <Button x:Name="btn_deletepublisher" Content="حذف" HorizontalAlignment="Left" Margin="571,431,0,0" VerticalAlignment="Top" Width="102" Height="47" Click="btn_deletepublisher_Click"/>
+
+    </Grid>
+</UserControl>

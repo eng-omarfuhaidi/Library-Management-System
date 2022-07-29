@@ -1,0 +1,176 @@
+﻿<UserControl x:Class="LMS.UserControlAddBorrowing"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LMS"
+             mc:Ignorable="d"  Height="708" Width="1182">
+    <UserControl.Resources>
+
+        <Style x:Key="textboxstyle" TargetType="TextBox">
+            <Setter Property="Width" Value="189"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="Height" Value="25"></Setter>
+        </Style>
+        <Style x:Key="startstyle" TargetType="Label">
+            <Setter  Property="Foreground" Value="#FFFF0101"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="Height" Value="27"></Setter>
+            <Setter Property="Width" Value="27"></Setter>
+        </Style>
+        <Style x:Key="comboboxtstyle" TargetType="ComboBox">
+            <Setter Property="Foreground" Value="Black"></Setter>
+        </Style>
+        <Style x:Key="textstyle" TargetType="Label">
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="FontFamily" Value="Segoe UI Semibold"></Setter>
+            <Setter Property="FontWeight" Value="Bold" ></Setter>
+        </Style>
+        <Style x:Key="datestyle" TargetType="DatePicker">
+            <Setter Property="Foreground" Value="Black"></Setter>
+        </Style>
+        <Style x:Key="buttonstyle"  TargetType="Button">
+            <Setter Property="Background" Value="#FF2196F3">
+            </Setter>
+            <Setter Property="BorderBrush" Value="#FF2196F3"></Setter>
+            <Setter Property="Foreground" Value="#FFFFFFFF"></Setter>
+            <Setter Property="FontSize" Value="17"></Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid Background="White" HorizontalAlignment="Right" Width="1162" Margin="0,-4,10,0" Height="702" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox x:Name="borrwing" Margin="0,56,570,0" RenderTransformOrigin="0.5,0.5"  FontSize="13" FontFamily="Microsoft JhengHei UI" BorderThickness="10" Height="214" VerticalAlignment="Top" HorizontalAlignment="Right" Width="571" Padding="0">
+            <GroupBox.Header>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20">
+
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" HorizontalAlignment="Right" Text="بيانات الإعارة" Margin="0,0,7,0"></TextBlock>
+                </Grid>
+            </GroupBox.Header>
+            <GroupBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GroupBox.RenderTransform>
+            <Canvas Margin="0,0,0,10" Width="544">
+                <Label Content="رقم الإعارة" HorizontalAlignment="Right" VerticalAlignment="Top" Width="77" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="468" Canvas.Top="7" />
+                <Label Content="*" Canvas.Left="459" Canvas.Top="10"   Style="{StaticResource ResourceKey=startstyle}"/>
+                <TextBox x:Name="txt_borrowingnumber" Height="25"  Canvas.Left="314"  Canvas.Top="10" Width="128" IsReadOnly="True" IsEnabled="False" Background="Beige" Style="{StaticResource ResourceKey=textboxstyle}" Foreground="Black"/>
+                <Label Content="وصف الإعارة" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="442" Canvas.Top="57" />
+                <TextBox x:Name="txt_BorrDisc" Height="104"  Canvas.Top="40" Width="128" Foreground="Black" Style="{StaticResource ResourceKey=textboxstyle}" TextWrapping="Wrap" Canvas.Left="314"/>
+                <Label Content="اسم المعير" HorizontalAlignment="Right" VerticalAlignment="Top" Width="83" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="464" Canvas.Top="143" />
+                <TextBox  x:Name="txt_LibClerck" IsEnabled="False" Height="25"   Canvas.Left="314"  Canvas.Top="149" Width="128"  Background="Beige" Text="" Style="{StaticResource ResourceKey=textboxstyle}"  Foreground="Black"/>
+                <Label Content="تاريخ الإعارة" HorizontalAlignment="Right" VerticalAlignment="Top" Width="90" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="146" Canvas.Top="10" />
+                <Label Content="*" Canvas.Left="133" Canvas.Top="15"   Style="{StaticResource ResourceKey=startstyle}"/>
+                <Label  Content="*" Canvas.Left="442" Canvas.Top="149"   Style="{StaticResource ResourceKey=startstyle}" Width="17" RenderTransformOrigin="0.682,0.593"/>
+                <DatePicker x:Name="date_borrowingdate"  Canvas.Left="5" Canvas.Top="10" Width="128" IsDropDownOpen="False"  IsEnabled="False" Margin="0 0" Style="{StaticResource ResourceKey=datestyle}" IsTodayHighlighted="True"/>
+                <Label Content="تاريخ الإعارة" HorizontalAlignment="Right" VerticalAlignment="Top" Width="90" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="146" Canvas.Top="73" />
+                <Label Content="*" Canvas.Left="133" Canvas.Top="78"   Style="{StaticResource ResourceKey=startstyle}"/>
+                <DatePicker x:Name="date_return" Canvas.Left="5" Canvas.Top="73" Width="128" IsDropDownOpen="False"  IsEnabled="False" Margin="0 0" Style="{StaticResource ResourceKey=datestyle}"/>
+                <TextBox x:Name="txt_period"  Background="Beige" Height="27" IsReadOnly="True" IsEnabled="True"  Canvas.Left="5" Width="128" Style="{StaticResource ResourceKey=textboxstyle}" Canvas.Top="140"/>
+                <Label BorderBrush="Black" Content="مدة الإعارة" VerticalAlignment="Center" HorizontalContentAlignment="Center"  Width="92" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="146" RenderTransformOrigin="0.475,1" Canvas.Top="136" />
+                <Label Content="*" Canvas.Left="133" Canvas.Top="143"   Style="{StaticResource ResourceKey=startstyle}"/>
+            </Canvas>
+
+
+        </GroupBox>
+        <Label Content="إعارة نسخة" HorizontalAlignment="Right" Margin="0,-1,19,0" VerticalAlignment="Top" RenderTransformOrigin="-0.533,0.577" Width="125" Height="40" FontSize="22" FontFamily="Segoe UI Semibold"/>
+        <GroupBox x:Name="borrower" Margin="0,56,13,0" RenderTransformOrigin="0.5,0.5"  FontSize="13" FontFamily="Microsoft JhengHei UI" BorderThickness="10" Height="214" VerticalAlignment="Top" HorizontalAlignment="Right" Width="557" Padding="0">
+            <GroupBox.Header>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" HorizontalAlignment="Right" Text="بيانات المستعير" Margin="0,0,7,0"/>
+                </Grid>
+            </GroupBox.Header>
+            <GroupBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GroupBox.RenderTransform>
+            <Canvas Margin="0,0,0,11" Width="530">
+                <Label Content="رقم التسجيل" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="434" Canvas.Top="3" />
+                <Label Content="*" Canvas.Left="406" Canvas.Top="7"   Style="{StaticResource ResourceKey=startstyle}" Width="26"/>
+                <TextBox x:Name="txt_borrowernumber" Height="25"  Canvas.Left="218"  Canvas.Top="7" Width="188" IsReadOnly="True" Style="{StaticResource ResourceKey=textboxstyle}" Foreground="Black"/>
+                <Label Content="اسم المستعير" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="434" Canvas.Top="45" />
+                <Label Content="*" Canvas.Left="406" Canvas.Top="45"   Style="{StaticResource ResourceKey=startstyle}" Width="26"/>
+                <TextBox Foreground="Black" x:Name="txt_borrowername" Height="27"  Canvas.Left="218"  Canvas.Top="45" Width="188" IsReadOnly="True" Style="{StaticResource ResourceKey=textboxstyle}" TextWrapping="Wrap"/>
+                <Label Content=" البريد الإلكتروني" HorizontalAlignment="Right" VerticalAlignment="Top" Width="124" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="412" Canvas.Top="121" />
+                <TextBox Foreground="Black" x:Name="txt_email" Height="25"  Canvas.Left="218"  Canvas.Top="127" Width="186" IsReadOnly="True" Style="{StaticResource ResourceKey=textboxstyle}"/>
+                <Label Content="رقم الهاتف" HorizontalAlignment="Right" VerticalAlignment="Top" Width="89" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="445" Canvas.Top="82" />
+                <TextBox Foreground="Black" x:Name="txt_phone" Height="25"  Canvas.Left="218"  Canvas.Top="79" Width="188" IsReadOnly="True" Style="{StaticResource ResourceKey=textboxstyle}"/>
+                <Label Content="*" Canvas.Left="406" Canvas.Top="82"   Style="{StaticResource ResourceKey=startstyle}" Width="26"/>
+                <TextBox Name="txt_bornmae" Height="25"  Canvas.Left="56" Width="119"    Foreground="Black" TextChanged="txt_bornmae_TextChanged" GotFocus="txt_bornmae_GotFocus" LostFocus="txt_bornmae_LostFocus" Canvas.Top="-1" />
+                <ListBox x:Name="list1" Width="213" Height="146" Canvas.Top="27" SelectionChanged="list1_SelectionChanged" Foreground="Black" Background="White" BorderThickness="5">
+                    <ListBox.Resources>
+                        <DataTemplate x:Key="data"></DataTemplate>
+                    </ListBox.Resources>
+                </ListBox>
+
+                <Image Source="C:\Users\Omer Abdulhamid\Desktop\icons\search_filled_100px.png" Height="22" Width="27" Canvas.Top="5" Canvas.Left="24"></Image>
+
+
+            </Canvas>
+
+
+        </GroupBox>
+        <GroupBox x:Name="books" Margin="0,270,13,0" RenderTransformOrigin="0.5,0.5"  FontSize="13" FontFamily="Microsoft JhengHei UI" BorderThickness="10" Height="422" VerticalAlignment="Top" HorizontalAlignment="Right" Width="1128" Padding="0">
+            <GroupBox.Header>
+                <Grid Height="26">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" HorizontalAlignment="Right" Text="الوثائق" Margin="0,0,7,0"/>
+                </Grid>
+            </GroupBox.Header>
+            <GroupBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GroupBox.RenderTransform>
+            <Canvas Margin="0,0,0,12" Width="1099">
+                <DataGrid x:Name="dg_copylist" IsReadOnly="True" FlowDirection="RightToLeft" Canvas.Top="29" Width="754" Height="345" MouseLeftButtonUp="dg_copylist_MouseLeftButtonUp" Canvas.Left="343"/>
+                <Label  BorderBrush="Black" Content="اختيار نسخة" HorizontalAlignment="Right" VerticalAlignment="Top" Width="101" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="998" Canvas.Top="-2" />
+                <TextBox x:Name="txt_copynumber" IsReadOnly="True" Background="Beige" Foreground="Black" Width="97" Canvas.Left="246" Canvas.Top="34" Height="37" Text=""></TextBox>
+                <TextBox Background="Beige "  x:Name="txt_copyname" Height="38"  Canvas.Left="99"  Canvas.Top="33" Width="147" IsReadOnly="True" Style="{StaticResource ResourceKey=textboxstyle}" TextWrapping="Wrap"/>
+                <Label BorderThickness="1" BorderBrush="Black" Content="رقم النسخة" HorizontalAlignment="Right" VerticalAlignment="Center" HorizontalContentAlignment="Center" Width="97" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="244" Height="33" />
+                <Label  BorderThickness="1" BorderBrush="Black" Content="عنوان النسخة" VerticalAlignment="Center" HorizontalContentAlignment="Center" Width="147" Style="{StaticResource ResourceKey=textstyle}"  Canvas.Left="99" Height="33" Canvas.Top="1" />
+                <Label BorderThickness="1" BorderBrush="Black" Content="رقم الإصدار" VerticalAlignment="Center" HorizontalContentAlignment="Center" Width="99" Style="{StaticResource ResourceKey=textstyle}" Height="33" />
+                <Button x:Name="btn_update" Click="btn_update_Click" IsEnabled="False" Content="تعديل السطر المحدد" HorizontalAlignment="Left" FontSize="12" VerticalAlignment="Top" Width="134" Height="38"  Canvas.Left="180" Canvas.Top="336" />
+                <DataGrid x:Name="gd_bookbrorrowed" IsReadOnly="False" FlowDirection="RightToLeft" Canvas.Top="74" Width="342" Height="114" Background="#FFE9F4FD" Canvas.Left="-1" SelectionChanged="gd_bookbrorrowed_SelectionChanged"/>
+                <Button x:Name="btn_deleting" IsEnabled="False" Content="حذف السطر المحدد" HorizontalAlignment="Left" FontSize="12" VerticalAlignment="Top" Width="134" Height="38"  Canvas.Left="36" Canvas.Top="336" Click="btn_deleting_Click"/>
+                <TextBlock Foreground="Black" FontSize="10" x:Name="txt_block" Text="ابحث عن الوثيقة المطلوبة" Canvas.Left="736" Canvas.Top="10" Width="118"></TextBlock>
+                <Image Source="C:\Users\Omer Abdulhamid\Desktop\icons\search_filled_100px.png" Height="29" Width="20" Canvas.Left="702" Canvas.Top="2"></Image>
+                <TextBox   x:Name="txt_booknamesearching" Width="151" Canvas.Left="722"  TextChanged="txt_booknamesearching_TextChanged" Foreground="Black" GotFocus="txt_booknamesearching_GotFocus" LostFocus="txt_booknamesearching_LostFocus" Height="29" Canvas.Top="-5"/>
+                <ListBox x:Name="listbooks_" Width="151" Height="345" Canvas.Top="29" SelectionChanged="listbooks__SelectionChanged" Foreground="Black" Background="White"  BorderThickness="5" Canvas.Left="722">
+                    <ListBox.Resources>
+                        <DataTemplate x:Key="data"/>
+                    </ListBox.Resources>
+                </ListBox>
+                <TextBox Background="Beige "  x:Name="txt_edition" Height="38"  Canvas.Top="33" Width="99" IsReadOnly="True" Style="{StaticResource ResourceKey=textboxstyle}" TextWrapping="Wrap" KeyUp="txt_edition_KeyUp"/>
+            </Canvas>
+
+
+        </GroupBox>
+        <Button x:Name="btn_addborrowing"  Content="إعارة جديد" HorizontalAlignment="Left" FontSize="12" VerticalAlignment="Top" Width="83" Height="38"  Margin="912,10,0,0"  Click="btn_addborrowing_Click"/>
+        <Button x:Name="btn_saveborrowing" Content="حفظ الإعارة" HorizontalAlignment="Left" FontSize="12" VerticalAlignment="Top" Width="93" Height="38"  Margin="816,10,0,0" Click="btn_saveborrowing_Click" />
+        <Button Content="الغاء" HorizontalAlignment="Left" FontSize="12" VerticalAlignment="Top" Width="58" Height="38"  Margin="753,10,0,0" />
+
+    </Grid>
+</UserControl>

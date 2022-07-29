@@ -1,0 +1,100 @@
+﻿<UserControl x:Class="LMS.UserControlAddCatogray"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LMS"
+              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d"   Height="723" Width="1250.5" Margin="0">
+    <UserControl.Resources>
+        <Style x:Key="txtboxstyle" TargetType="TextBox">
+            <Setter Property="Foreground" Value="Black"></Setter>
+        </Style>
+        <Style x:Key="buttonstyle"  TargetType="Button">
+            <Setter Property="Background" Value="#FF2196F3">
+            </Setter>
+            <Setter Property="BorderBrush" Value="#FF2196F3"></Setter>
+            <Setter Property="Foreground" Value="#FFFFFFFF"></Setter>
+            <Setter Property="FontSize" Value="17"></Setter>
+        </Style>
+        <Style x:Key="startstyle" TargetType="Label">
+            <Setter  Property="Foreground" Value="#FFFF0101"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="Height" Value="27"></Setter>
+            <Setter Property="Width" Value="27"></Setter>
+        </Style>
+        <Style x:Key="textstyle" TargetType="Label">
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="FontFamily" Value="Segoe UI Semibold"></Setter>
+            <Setter Property="FontWeight" Value="Bold" ></Setter>
+        </Style>
+
+    </UserControl.Resources>
+    <Grid Margin="90,48,120,36" Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="إدراة التصنيفات" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Top" RenderTransformOrigin="-0.533,0.577" Width="152" Height="40" FontSize="22" FontFamily="Segoe UI Semibold"/>
+
+        <GroupBox HorizontalAlignment="Left" Height="298" Margin="496,48,0,0" VerticalAlignment="Top" Width="455"  FontSize="13" FontFamily="Microsoft JhengHei UI" BorderThickness="10">
+            <GroupBox.Header>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20">
+
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" HorizontalAlignment="Right" Text="ادخال البيانات" Foreground="White" Margin="0,0,12,0"></TextBlock>
+                </Grid>
+            </GroupBox.Header>
+            <Canvas Margin="0">
+                <Label Content="رقم التصنيف المحلي" HorizontalAlignment="Right" VerticalAlignment="Top" Width="147" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="287" Canvas.Top="-3" />
+                <Label Content="*" Canvas.Left="265" Canvas.Top="1"   Style="{StaticResource ResourceKey=startstyle}"/>
+                <TextBox Height="25"  Canvas.Left="76"  Canvas.Top="1" Width="189" IsReadOnly="False" x:Name="txt_loc_catogray" Style="{StaticResource ResourceKey=txtboxstyle}"/>
+                <Label Content="رقم التصنيف العالمي" HorizontalAlignment="Right" VerticalAlignment="Top" Width="154" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="280" Canvas.Top="33" />
+                <Label Content="*" Canvas.Left="265" Canvas.Top="37"   Style="{StaticResource ResourceKey=startstyle}"/>
+                <TextBox Height="25"  Canvas.Left="76"  Canvas.Top="37" Width="189" IsReadOnly="False" x:Name="txt_int_catogray" Style="{StaticResource ResourceKey=txtboxstyle}"/>
+                <Label Content="اسم التصنيف" HorizontalAlignment="Right" VerticalAlignment="Top" Width="109" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="325" Canvas.Top="75" />
+                <TextBox Height="25"  Canvas.Left="76"  Canvas.Top="81" Width="189" IsReadOnly="False" TextWrapping="Wrap" x:Name="txt_catograyname" Style="{StaticResource ResourceKey=txtboxstyle}"/>
+                <Label Content="*" Canvas.Left="265" Canvas.Top="81"   Style="{StaticResource ResourceKey=startstyle}"/>
+                <Label Content="AR/رمز التصنيف" HorizontalAlignment="Right" VerticalAlignment="Top" Width="123" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="311" Canvas.Top="126" />
+                <TextBox Height="25"  Canvas.Left="76"  Canvas.Top="126" Width="189" IsReadOnly="False" TextWrapping="Wrap" x:Name="txt_arcatsymple" Style="{StaticResource ResourceKey=txtboxstyle}"/>
+                <Label Content="*" Canvas.Left="265" Canvas.Top="126"   Style="{StaticResource ResourceKey=startstyle}"/>
+                <Label Content=" EN/رمز التصنيف " HorizontalAlignment="Right" VerticalAlignment="Top" Width="129" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="305" Canvas.Top="176" />
+                <TextBox Height="25"  Canvas.Left="76"  Canvas.Top="173" Width="189" IsReadOnly="False" TextWrapping="Wrap" x:Name="txt_encatsymple" Style="{StaticResource ResourceKey=txtboxstyle}"/>
+                <Label Content="*" Canvas.Left="265" Canvas.Top="173"   Style="{StaticResource ResourceKey=startstyle}"/>
+
+            </Canvas>
+        </GroupBox>
+        <GroupBox  HorizontalAlignment="Left" Height="546" Margin="13,48,0,0" VerticalAlignment="Top" Width="483" BorderThickness="10">
+            <GroupBox.Header>
+                <Grid Margin="2,0,-2,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" HorizontalAlignment="Right" Text="استعراض التصنيفات" Foreground="White" Margin="0,0,4,0"/>
+                </Grid>
+            </GroupBox.Header>
+            <Canvas Width="450" Margin="0,0,0,4" >
+                <Image Source="C:\Users\Omer Abdulhamid\Desktop\icons\search_filled_100px.png" Height="23" Width="40" Canvas.Left="140" Canvas.Top="11"></Image>
+                <TextBox  Foreground="Black"  x:Name="txt_searching"  Width="134"  Canvas.Left="168" Canvas.Top="8" GotFocus="txt_searching_GotFocus" LostFocus="txt_searching_LostFocus" TextChanged="txt_searching_TextChanged"/>
+                <TextBlock x:Name="txt_block" Text="...ابحث هنا" Height="19" Canvas.Left="176" Canvas.Top="16" Width="62" Foreground="Black"></TextBlock>
+                <DataGrid x:Name="dg_catogray" IsReadOnly="True" FlowDirection="RightToLeft" Canvas.Top="39" Height="437" Width="441" MouseLeftButtonUp="dg_catogray_MouseLeftButtonUp">
+                    <!--<DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding loc_catog_num }" Header="رقم التصنيف المحلي" Width="Auto"></DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding int_catog_num }" Header="رقم التصنيف العالمي" Width="Auto"></DataGridTextColumn>
+
+                        <DataGridTextColumn Binding="{Binding catog_name }" Header="اسم التصنيف" Width="Auto"></DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding ar_catog_symple }" Header="AR/رمز التصنيف" Width="Auto"></DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding en_catog_symple}" Header="EN/رمز التصنيف" Width="Auto"></DataGridTextColumn>
+                    </DataGrid.Columns>-->
+                </DataGrid>
+            </Canvas>
+        </GroupBox>
+        <Button Content="حفظ" x:Name="btn_savecat" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Height="47"  Click="btn_savecat_Click" Margin="570,374,0,0" RenderTransformOrigin="0.772,0.642"/>
+        <Button Content="تعديل" x:Name="btn_update" HorizontalAlignment="Left" Margin="788,481,0,0" VerticalAlignment="Top" Width="112" Height="47"   Click="btn_update_Click"/>
+        <Button Content="جديد"  x:Name="btn_newcat" Margin="788,374,140,0" VerticalAlignment="Top" Width="112" Height="47"  Click="btn_newcat_Click"/>
+        <Button Content="حذف"  x:Name="btn_delete" HorizontalAlignment="Left" Margin="570,481,0,0" VerticalAlignment="Top" Width="112" Height="47" Click="btn_delete_Click" RenderTransformOrigin="0.951,1.849" />
+
+    </Grid>
+</UserControl>

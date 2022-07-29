@@ -1,0 +1,114 @@
+﻿<UserControl x:Class="LMS.UserControlAddBook"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LMS"
+             mc:Ignorable="d" Height="548.42" Width="1092.757" >
+    <UserControl.Resources>
+
+        <Style x:Key="textboxstyle" TargetType="TextBox">
+            <Setter Property="Foreground" Value="Black"></Setter>
+        </Style>
+        <Style x:Key="combtextstyle" TargetType="ComboBox">
+            <Setter Property="Foreground" Value="Black"></Setter>
+        </Style>
+        <Style x:Key="datetxtstyle" TargetType="DatePicker">
+            <Setter Property="Foreground" Value="Black"></Setter>
+        </Style>
+        <Style x:Key="startstyle" TargetType="Label">
+            <Setter  Property="Foreground" Value="#FFFF0101"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="Height" Value="27"></Setter>
+            <Setter Property="Width" Value="27"></Setter>
+        </Style>
+        <Style x:Key="textstyle" TargetType="Label">
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="FontFamily" Value="Segoe UI Semibold"></Setter>
+            <Setter Property="FontWeight" Value="Bold" ></Setter>
+        </Style>
+        <Style x:Key="buttonstyle"  TargetType="Button">
+            <Setter Property="Background" Value="#FF2196F3">
+            </Setter>
+            <Setter Property="BorderBrush" Value="#FF2196F3"></Setter>
+            <Setter Property="Foreground" Value="#FFFFFFFF"></Setter>
+            <Setter Property="FontSize" Value="17"></Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid Background="White" Margin="0,0,0,0">
+        <DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <GroupBox  DockPanel.Dock="Top" Height="474" Margin="10,44,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5"  FontSize="13" FontFamily="Microsoft JhengHei UI" BorderThickness="10" HorizontalAlignment="Left" Width="1038" MaxHeight="561" MaxWidth="1121">
+                <GroupBox.Header>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="20">
+
+                            </RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" HorizontalAlignment="Right" Text="بيانات الكتاب"></TextBlock>
+                    </Grid>
+                </GroupBox.Header>
+                <GroupBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="1" ScaleX="1"/>
+                        <SkewTransform AngleY="0" AngleX="0"/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </GroupBox.RenderTransform>
+                <Canvas Margin="0,0,0,4" Width="1012">
+                    <Label Content="رقم التسجيل" HorizontalAlignment="Right" VerticalAlignment="Top" Width="94" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="918" Canvas.Top="-3" />
+                    <Label Content="*" Canvas.Left="896" Canvas.Top="4"   Style="{StaticResource ResourceKey=startstyle}"/>
+                    <TextBox x:Name="txt_book_id"  Height="25"  Canvas.Left="707"  Canvas.Top="4" Width="189" IsReadOnly="True"  Style="{StaticResource ResourceKey=textboxstyle}"/>
+                    <Label Content="اسم الكتاب" HorizontalAlignment="Right" VerticalAlignment="Top" Width="88" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="924" Canvas.Top="41" />
+                    <Label Content="*" Canvas.Left="896" Canvas.Top="41"   Style="{StaticResource ResourceKey=startstyle}"/>
+                    <TextBox x:Name="txt_book_name" GotKeyboardFocus="txt_book_name_GotKeyboardFocus"  AcceptsTab="True"  Focusable="True" Height="25"  Canvas.Left="707"  Canvas.Top="41" Width="189" IsReadOnly="False" Style="{StaticResource ResourceKey=textboxstyle}" AutoWordSelection="True" IsTabStop="False" TabIndex="1"/>
+                    <Label Content="رقم المجلد" HorizontalAlignment="Right" VerticalAlignment="Top" Width="78" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="924" Canvas.Top="80" />
+                    <TextBox x:Name="txt_book_dir" Height="25"  Canvas.Left="707"  Canvas.Top="80" Width="189" IsReadOnly="False" Style="{StaticResource ResourceKey=textboxstyle}"/>
+                    <Label Content="الصنف" HorizontalAlignment="Right" VerticalAlignment="Top" Width="78" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="924" Canvas.Top="117" />
+                    <Label Content="*" Canvas.Left="896" Canvas.Top="117"   Style="{StaticResource ResourceKey=startstyle}"/>
+                    <ComboBox x:Name="comb_catogray" Canvas.Left="707" Canvas.Top="117" Width="189" Height="27" Style="{StaticResource ResourceKey=combtextstyle}" />
+                    <Label Content="النوع" HorizontalAlignment="Right" VerticalAlignment="Top" Width="78" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="924" Canvas.Top="161" />
+                    <Label Content="*" Canvas.Left="896" Canvas.Top="161"   Style="{StaticResource ResourceKey=startstyle}"/>
+                    <ComboBox x:Name="comb_type" Canvas.Left="707" Canvas.Top="161" Width="189" Height="25" Style="{StaticResource ResourceKey=combtextstyle}"/>
+                    <Label Content="المؤلف" HorizontalAlignment="Right" VerticalAlignment="Top" Width="78" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="924" Canvas.Top="216" />
+                    <Label Content="*" Canvas.Left="896" Canvas.Top="216"   Style="{StaticResource ResourceKey=startstyle}"/>
+                    <ComboBox x:Name="comb_author" Canvas.Left="707" Canvas.Top="216" Width="189" Height="25" Style="{StaticResource ResourceKey=combtextstyle}"/>
+                    <Label Content="المترجم" HorizontalAlignment="Right" VerticalAlignment="Top" Width="78" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="924" Canvas.Top="265" AllowDrop="True" />
+                    <ComboBox x:Name="comb_translator" Canvas.Left="707" Canvas.Top="265" Width="189" Height="25" Style="{StaticResource ResourceKey=combtextstyle}"/>
+                    <Label Content="رقم الدولاب" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="578" Canvas.Top="126" />
+                    <TextBox x:Name="txt_wheel" Height="25"  Canvas.Left="367"  Canvas.Top="123" Width="189" IsReadOnly="False"  Style="{StaticResource ResourceKey=textboxstyle}"/>
+                    <Label Content="رقم الرف" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="578" Canvas.Top="167" />
+                    <TextBox x:Name="txt_shelf" Height="25"  Canvas.Left="367"  Canvas.Top="167" Width="189" IsReadOnly="False"  Style="{StaticResource ResourceKey=textboxstyle}"/>
+                    <Label Content="المحقق" HorizontalAlignment="Right" VerticalAlignment="Top" Width="78" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="918" Canvas.Top="319" />
+                    <ComboBox x:Name="comb_examiner" Canvas.Left="707" Canvas.Top="319" Width="189" Height="25"  Style="{StaticResource ResourceKey=combtextstyle}"/>
+                    <Label Content="اللغة" HorizontalAlignment="Right" VerticalAlignment="Top" Width="78" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="918" Canvas.Top="368" />
+                    <Label Content="*" Canvas.Left="896" Canvas.Top="368"   Style="{StaticResource ResourceKey=startstyle}"/>
+                    <ComboBox x:Name="comb_language" Canvas.Left="707" Canvas.Top="368" Width="189" Height="25" Style="{StaticResource ResourceKey=combtextstyle}"/>
+                    <Label Content="الناشر" HorizontalAlignment="Right" VerticalAlignment="Top" Width="78" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="578" Canvas.Top="3" />
+                    <ComboBox x:Name="comb_publisher" Canvas.Left="367" Canvas.Top="3" Width="189" Height="25" Style="{StaticResource ResourceKey=combtextstyle}"/>
+                    <Label Content="تفاصيل أخرى&#xD;&#xA; عن&#xD;&#xA; الكتاب" HorizontalAlignment="Right" VerticalAlignment="Top" Width="145" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="548" Canvas.Top="228" Height="74" />
+                    <TextBox x:Name="txt_description"  Height="107"  Canvas.Left="367"  Canvas.Top="216" Width="160"  TextWrapping="Wrap" Style="{StaticResource ResourceKey=textboxstyle}"/>
+                    <Image x:Name="book_imag" Height="220" Width="362" Canvas.Top="103" Source="C:\Users\Omer Abdulhamid\Desktop\icons\book_image.png" ></Image>
+                    <Button x:Name="btn_addimage" Width="275" Canvas.Left="48" Canvas.Top="53" Click="btn_addimage_Click">
+                        إضافة صورة للكتاب
+                    </Button>
+                    <Label Content=" رقم الغرفة" HorizontalAlignment="Right" VerticalAlignment="Top" Width="87" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="578" Canvas.Top="41" />
+                    <TextBox x:Name="txt_room"  Canvas.Left="367" Canvas.Top="41" Width="189" Height="25"  Style="{StaticResource ResourceKey=textboxstyle}"/>
+                    <Label Content="رقم الدور" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="578" Canvas.Top="83" />
+                    <TextBox x:Name="txt_floor" Height="25"  Canvas.Top="80" Width="189" IsReadOnly="False" Canvas.Left="367" Style="{StaticResource ResourceKey=textboxstyle}" />
+                    <Label Content="الناشر" HorizontalAlignment="Right" VerticalAlignment="Top" Width="78" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="578" Canvas.Top="3" />
+                    <Label Content="الناشر" HorizontalAlignment="Right" VerticalAlignment="Top" Width="78" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="578" Canvas.Top="3" />
+                </Canvas>
+
+
+            </GroupBox>
+        </DockPanel>
+        <Label x:Name="label1" Content="إضافة وثيقة " HorizontalAlignment="Right" Margin="0,5,43,0" VerticalAlignment="Top" RenderTransformOrigin="-0.533,0.577" Width="107" Height="40" FontSize="18" FontFamily="Segoe UI Semibold " FlowDirection="RightToLeft"/>
+        <Button Content="جديد"  x:Name="btn_addbook" HorizontalAlignment="Left" Margin="827,0,0,0" VerticalAlignment="Top" Width="69" Height="39"  Click="btn_addbook_Click" />
+        <Button Content="حفظ" x:Name="btn_savebook" IsEnabled="False" HorizontalAlignment="Left" Margin="737,0,0,0" VerticalAlignment="Top" Width="69" Height="39" Click="btn_savebook_Click_1" />
+        <Button  Content="الغاء" x:Name="btn_cancel_Copy" HorizontalAlignment="Left" Margin="645,0,0,0" VerticalAlignment="Top" Width="68" Height="39"   Click="btn_cancel_Click"/>
+
+    </Grid>
+
+</UserControl>

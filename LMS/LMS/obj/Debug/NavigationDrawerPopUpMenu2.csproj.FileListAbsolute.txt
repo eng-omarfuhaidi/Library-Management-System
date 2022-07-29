@@ -1,0 +1,126 @@
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csprojResolveAssemblyReference.cache
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\MainWindow.g.cs
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\App.g.cs
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2_MarkupCompile.cache
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2_MarkupCompile.lref
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.exe.config
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.exe
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.pdb
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignColors.dll
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\MainWindow.baml
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.g.resources
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.Properties.Resources.resources
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csproj.GenerateResource.Cache
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csproj.CoreCompileInputs.cache
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.exe
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.pdb
+C:\Users\abelo\source\repos\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\App.baml
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.exe.config
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.exe
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.pdb
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignColors.dll
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csprojResolveAssemblyReference.cache
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\MainWindow.g.cs
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\UserControlHome.g.cs
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\App.g.cs
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2_MarkupCompile.cache
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2_MarkupCompile.lref
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\App.baml
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\MainWindow.baml
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\UserControlHome.baml
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.g.resources
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.Properties.Resources.resources
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csproj.GenerateResource.Cache
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csproj.CoreCompileInputs.cache
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.exe
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.pdb
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\UserControlCreate.g.cs
+D:\GIT\NavigationDrawerPopUpMenu2\NavigationDrawerPopUpMenu2\obj\Debug\UserControlCreate.baml
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.exe.config
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.exe
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.pdb
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignColors.dll
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csprojAssemblyReference.cache
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\MainWindow.g.cs
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlCreate.g.cs
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlHome.g.cs
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\App.g.cs
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2_MarkupCompile.cache
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2_MarkupCompile.lref
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\App.baml
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\MainWindow.baml
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlCreate.baml
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlHome.baml
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.g.resources
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.Properties.Resources.resources
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csproj.GenerateResource.cache
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csproj.CopyComplete
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.exe
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.pdb
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.exe.config
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.exe
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.pdb
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignColors.dll
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csprojAssemblyReference.cache
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\MainWindow.g.cs
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlCreate.g.cs
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlHome.g.cs
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\App.g.cs
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2_MarkupCompile.cache
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2_MarkupCompile.lref
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\App.baml
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\MainWindow.baml
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlCreate.baml
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlHome.baml
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.g.resources
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.Properties.Resources.resources
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csproj.GenerateResource.cache
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csproj.CopyComplete
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.exe
+E:\مشروع التخرج\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.pdb
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.exe.config
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.exe
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.pdb
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignColors.dll
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csprojAssemblyReference.cache
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\MainWindow.g.cs
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlCreate.g.cs
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlHome.g.cs
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\App.g.cs
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2_MarkupCompile.cache
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2_MarkupCompile.lref
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\App.baml
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\MainWindow.baml
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlCreate.baml
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlHome.baml
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.g.resources
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.Properties.Resources.resources
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csproj.GenerateResource.cache
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.csproj.CopyComplete
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.exe
+F:\من عمر WPF\WPF\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.pdb
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBooks.g.cs
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBorrwing.g.cs
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBooks.baml
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBorrwing.baml
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddBooks.g.cs
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddBooks.baml
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBookManagement.g.cs
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBookOPeration.g.cs
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBookManagement.baml
+C:\Users\Omer Abdulhamid\Desktop\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBookOPeration.baml

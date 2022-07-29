@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="LMS.UserControlAcceptRequsest"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LMS"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"  Height="803.707" Width="1495">
+    <Grid Margin="10,24,116,0" Height="780" VerticalAlignment="Top" Background="White">
+        <Label Content="إدارة طلبات الإنضمام "  HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" RenderTransformOrigin="-0.533,0.577" Width="213" Height="40" FontSize="22" FontFamily="Segoe UI Semibold"/>
+        <Button x:Name="btn_accept" Content="قبول الطلب" HorizontalAlignment="Left" Margin="573,11,0,0" VerticalAlignment="Top" Click="btn_accept_Click"/>
+        <DataGrid FlowDirection="RightToLeft" HorizontalAlignment="Left" Height="662" Margin="0,108,0,0" VerticalAlignment="Top" Width="1367" Background="#FFF5F5F2" x:Name="dg_books"/>
+        <TextBlock x:Name="txt_block" Text="...ابحث هنا" Margin="580,88,725,676"/>
+        <TextBox x:Name="txt_searchrequest" Height="27" Margin="580,77,599,0" TextWrapping="Wrap"  LostFocus="txt_searchrequest_LostFocus" GotFocus="txt_searchrequest_GotFocus" VerticalAlignment="Top" TextChanged="txt_searchrequest_TextChanged" Foreground="Black" />
+        <Image Source="C:\Users\Omer Abdulhamid\Desktop\icons\search_filled_100px.png" Margin="553,73,794,663"></Image>
+
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,86 @@
+﻿<UserControl x:Class="LMS.UserControlAddAuothor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LMS"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" Height="723" Width="1250.5" Margin="0">
+    <UserControl.Resources>
+        <Style x:Key="txtboxstyle" TargetType="TextBox">
+            <Setter Property="Foreground" Value="Black"></Setter>
+        </Style>
+
+        <Style x:Key="buttonstyle"  TargetType="Button">
+            <Setter Property="Background" Value="#FF2196F3">
+            </Setter>
+            <Setter Property="BorderBrush" Value="#FF2196F3"></Setter>
+            <Setter Property="Foreground" Value="#FFFFFFFF"></Setter>
+            <Setter Property="FontSize" Value="17"></Setter>
+        </Style>
+        <Style x:Key="startstyle" TargetType="Label">
+            <Setter  Property="Foreground" Value="#FFFF0101"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="Height" Value="27"></Setter>
+            <Setter Property="Width" Value="27"></Setter>
+        </Style>
+        <Style x:Key="textstyle" TargetType="Label">
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="FontFamily" Value="Segoe UI Semibold"></Setter>
+            <Setter Property="FontWeight" Value="Bold" ></Setter>
+        </Style>
+
+    </UserControl.Resources>
+    <Grid Margin="64,48,146,71" Background="White">
+        <Label Content="ادارة المؤلفين" HorizontalAlignment="Right" VerticalAlignment="Top" RenderTransformOrigin="-0.533,0.577" Width="134" Height="40" FontSize="22" FontFamily="Segoe UI Semibold" Margin="0,0,10,0"/>
+        <GroupBox HorizontalAlignment="Left" Height="240" Margin="490,42,0,0" VerticalAlignment="Top" Width="457"  FontSize="13" FontFamily="Microsoft JhengHei UI" BorderThickness="10">
+            <GroupBox.Header>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20">
+
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" HorizontalAlignment="Right" Text="بيانات الإدخال" Foreground="White"></TextBlock>
+                </Grid>
+            </GroupBox.Header>
+            <Canvas Margin="0">
+                <Label Content="رقم التسجيل" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="315" Canvas.Top="4" />
+                <Label Content="*" Canvas.Left="293" Canvas.Top="11"   Style="{StaticResource ResourceKey=startstyle}"/>
+                <TextBox  x:Name="txt_authornum" Height="25"  Canvas.Left="104"  Canvas.Top="11" Width="189" IsReadOnly="True"  Style="{StaticResource ResourceKey=txtboxstyle}"/>
+                <Label Content="اسم المؤلف" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="321" Canvas.Top="49" />
+                <Label Content="*" Canvas.Left="293" Canvas.Top="49"   Style="{StaticResource ResourceKey=startstyle}"/>
+                <TextBox  x:Name="txt_authorname" Height="25"  Canvas.Left="104"  Canvas.Top="49" Width="189" IsReadOnly="False" Style="{ StaticResource ResourceKey=txtboxstyle}"/>
+                <Label Content="وصف المؤلف" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="321" Canvas.Top="93" />
+                <TextBox x:Name="txt_authordisc" Height="65"  Canvas.Left="104"  Canvas.Top="93" Width="189" IsReadOnly="False" TextWrapping="Wrap" Style="{StaticResource ResourceKey=txtboxstyle}"/>
+
+            </Canvas>
+        </GroupBox>
+        <GroupBox HorizontalAlignment="Left" Height="552" Margin="86,42,0,0" VerticalAlignment="Top" Width="404"  FontSize="13" FontFamily="Microsoft JhengHei UI" BorderThickness="10">
+            <GroupBox.Header>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" HorizontalAlignment="Right" Text=" استعراض المؤلفين" Foreground="White"/>
+                </Grid>
+            </GroupBox.Header>
+
+            <Canvas>
+                <Image Source="C:\Users\Omer Abdulhamid\Desktop\icons\search_filled_100px.png" Height="23" Width="40" Canvas.Left="124" Canvas.Top="40"></Image>
+                <TextBlock x:Name="txt_block" Text="...ابحث هنا" Canvas.Left="164" Canvas.Top="40" Height="18" Foreground="Black"></TextBlock>
+                <TextBox x:Name="txt_authorsearching" Width="134"  Canvas.Left="158" Canvas.Top="36" GotFocus="txt_authorsearching_GotFocus" LostFocus="txt_authorsearching_LostFocus" TextChanged="txt_authorsearching_TextChanged"  Height="23" Foreground="Black"/>
+                <DataGrid   x:Name="dg_author" IsReadOnly="True" Canvas.Top="64"  Width="363" Height="422" MouseLeftButtonUp="dg_author_MouseLeftButtonUp" FlowDirection="RightToLeft" Canvas.Left="13"/>
+            </Canvas>
+        </GroupBox>
+
+
+        <Button x:Name="btn_newauthor" Content="جديد" HorizontalAlignment="Left" Margin="792,318,0,0" VerticalAlignment="Top" Width="102" Height="47"  Click="btn_newauthor_Click"/>
+        <Button x:Name="btn_deleteauthor" Content="حذف" HorizontalAlignment="Left" Margin="571,479,0,0" VerticalAlignment="Top" Width="102" Height="47" Click="btn_deleteauthor_Click" RenderTransformOrigin="0.123,0.564"/>
+        <Button x:Name="btn_updateauthor" Content="تعديل" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="47" Margin="792,479,0,0" Click="btn_updateauthor_Click" RenderTransformOrigin="0.196,0.404"/>
+        <Button x:Name="btn_saveauthor" Content="حفظ" HorizontalAlignment="Left" Margin="571,318,0,0" VerticalAlignment="Top" Width="102" Height="47" Click="btn_saveauthor_Click"/>
+
+
+
+    </Grid>
+</UserControl>

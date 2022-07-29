@@ -1,0 +1,132 @@
+﻿<UserControl x:Class="LMS.UserControlBooks"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LMS"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+              Height="587.64" Width="842.135">
+    <UserControl.Resources>
+        <Style x:Key="imagstyle" TargetType="Image">
+            <Setter Property ="Width" Value="50">
+            </Setter>
+            <Setter Property="Height" Value="50" >
+            </Setter>
+            <Setter Property="Margin" Value="20 30 20 0"></Setter>
+        </Style>
+        <Style x:Key="textstyle"  TargetType="Label">
+            <Setter Property="FontSize" Value="14"  >
+
+            </Setter>
+            <Setter Property="FontFamily" Value="Yu Gothic Medium">
+
+            </Setter>
+            <Setter Property="VerticalAlignment" Value="Center" >
+
+            </Setter>
+            <Setter Property="HorizontalAlignment" Value="Center">
+
+            </Setter>
+        </Style>
+        <Style x:Key="mystyleborder" TargetType="Border" >
+            <Setter Property="CornerRadius" Value="20 0 20 0"></Setter>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0.5,1">
+                        <GradientStop Offset="0.1" Color="#ff2d8aef"></GradientStop>
+                        <GradientStop Offset="4" Color="Black"></GradientStop>
+                    </LinearGradientBrush>
+                </Setter.Value>
+
+            </Setter>
+            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Height" Value="125"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="RenderTransformOrigin" Value="0.5,0.5"></Setter>
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                <GradientStop Offset="0.1" Color="Aquamarine"></GradientStop>
+                                <GradientStop Offset="4" Color="Black"></GradientStop>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="RenderTransform">
+                        <Setter.Value>
+                            <ScaleTransform ScaleX="1.13" ScaleY="1.13"></ScaleTransform>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                    <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Grid  Margin="0,10,0,0" HorizontalAlignment="Right" Width="825" Height="578" VerticalAlignment="Top">
+        <Canvas Margin="0,0,10,134">
+            <Border x:Name="br_addpublisher"   Style="{StaticResource ResourceKey=mystyleborder}" HorizontalAlignment="Stretch" Canvas.Left="6" Canvas.Top="40" MouseLeftButtonDown="br_addpublisher_MouseLeftButtonDown" >
+                <StackPanel Orientation="Vertical">
+                    <materialDesign:PackIcon Kind="HomeMapMarker" Height="87" Width="66" Foreground="Wheat" Margin="38,0,0,0"></materialDesign:PackIcon>
+                    <Image Source="C:\Users\Omer Abdulhamid\Desktop\icons\organization_96px.png" Style="{StaticResource ResourceKey=imagstyle}" Visibility="Collapsed"></Image>
+                    <Label Content="الناشرون" Style="{StaticResource ResourceKey=textstyle}"/>
+                </StackPanel>
+            </Border>
+            <Border x:Name="br_addtypes"   Style="{StaticResource ResourceKey=mystyleborder}" Canvas.Left="214" Canvas.Top="309" MouseLeftButtonDown="br_addtypes_MouseLeftButtonDown" >
+
+                <StackPanel Orientation="Vertical">
+                    <materialDesign:PackIcon Kind="More" Height="87" Width="66" Foreground="Wheat" Margin="38,0,0,0" ></materialDesign:PackIcon>
+                    <Image Source="C:\Users\Omer Abdulhamid\Desktop\icons\parts.png" Style="{StaticResource ResourceKey=imagstyle}" Visibility="Collapsed"></Image>
+                    <Label Content="الأنواع" Style="{StaticResource ResourceKey=textstyle}">
+                    </Label>
+                </StackPanel>
+            </Border>
+            <Border x:Name="br_addlanguage"   Style="{StaticResource ResourceKey=mystyleborder}" Canvas.Left="10" Canvas.Top="309" MouseLeftButtonDown="br_addlanguage_MouseLeftButtonDown">
+                <StackPanel Orientation="Vertical">
+                    <materialDesign:PackIcon Kind="Translate" Height="87" Width="66" Foreground="Wheat" Margin="38,0,0,0"></materialDesign:PackIcon>
+                    <Image Source="C:\Users\Omer Abdulhamid\Desktop\icons\language_96px.png" Style="{StaticResource ResourceKey=imagstyle}" Visibility="Collapsed"></Image>
+                    <Label Content="اللغات" Style="{StaticResource ResourceKey=textstyle}"/>
+                </StackPanel>
+            </Border>
+            <Border x:Name="br_addbooks"   Style="{StaticResource ResourceKey=mystyleborder}"  Canvas.Left="609" Canvas.Top="40"  MouseLeftButtonDown="br_addbooks_MouseLeftButtonDown_1" >
+                <StackPanel Orientation="Vertical" >
+                    <materialDesign:PackIcon Kind="Book" Height="87" Width="66" Foreground="Wheat" Margin="38,0,0,0"></materialDesign:PackIcon>
+                    <Label Content="الكتب" Style="{StaticResource ResourceKey=textstyle}" Margin="54,0"/>
+                    <Image Source="C:\Users\Omer Abdulhamid\Desktop\icons\books.png" Margin="20 30 20 0" Height="50" Width="50" Visibility="Collapsed"></Image>
+                </StackPanel>
+            </Border>
+            <Border x:Name="br_addauthor"   Style="{StaticResource ResourceKey=mystyleborder}" Canvas.Left="410" Canvas.Top="40" MouseLeftButtonDown="br_addauthor_MouseLeftButtonDown" >
+                <StackPanel Orientation="Vertical">
+                    <materialDesign:PackIcon Kind="Pen"  Height="87" Width="66" Foreground="Wheat" Margin="38,0,0,0"></materialDesign:PackIcon>
+                    <Image Source=" C:\Users\Omer Abdulhamid\Desktop\icons\math_book.png"  Style="{StaticResource ResourceKey=imagstyle}" Visibility="Collapsed" />
+                    <Label Content="المؤلفون" Style="{StaticResource ResourceKey=textstyle}"/>
+                </StackPanel>
+            </Border>
+            <Border x:Name="br_addcatogray"  Style="{StaticResource ResourceKey=mystyleborder}" Canvas.Left="214" Canvas.Top="40"  MouseLeftButtonDown="br_addcatogray_MouseLeftButtonDown">
+                <StackPanel Orientation="Vertical">
+                    <materialDesign:PackIcon Kind="FormatListBulletedType" Height="87" Width="66" Foreground="Wheat" Margin="38,0,0,0"></materialDesign:PackIcon>
+                    <Image Source="C:\Users\Omer Abdulhamid\Desktop\icons\top_menu_128px.png" Style="{StaticResource ResourceKey=imagstyle}" Visibility="Collapsed"></Image>
+                    <Label Content="الأصناف" Style="{StaticResource ResourceKey=textstyle}" />
+                </StackPanel>
+            </Border>
+            <Border x:Name="br_addexaminer"   Style="{StaticResource ResourceKey=mystyleborder}" Canvas.Left="609" Canvas.Top="309" MouseLeftButtonDown="br_addexaminer_MouseLeftButtonDown" >
+
+                <StackPanel Orientation="Vertical">
+                    <materialDesign:PackIcon Kind="More" Height="87" Width="66" Foreground="Wheat" Margin="38,0,0,0" />
+                    <!--  <Image Source="C:\Users\Omer Abdulhamid\Desktop\icons\parts.png" Style="{StaticResource ResourceKey=imagstyle}" Visibility="Collapsed"/>-->
+                    <Label Content="المحققون" Style="{StaticResource ResourceKey=textstyle}"/>
+                </StackPanel>
+            </Border>
+            <Border x:Name="br_translator"   Style="{StaticResource ResourceKey=mystyleborder}" Canvas.Left="410" Canvas.Top="309" MouseLeftButtonDown="br_translator_MouseLeftButtonDown" >
+
+                <StackPanel Orientation="Vertical">
+                    <materialDesign:PackIcon Kind="More" Height="87" Width="66" Foreground="Wheat" Margin="38,0,0,0" />
+                    <!--  <Image Source="C:\Users\Omer Abdulhamid\Desktop\icons\parts.png" Style="{StaticResource ResourceKey=imagstyle}" Visibility="Collapsed"/>-->
+                    <Label Content="المترجمون" Style="{StaticResource ResourceKey=textstyle}"/>
+                </StackPanel>
+            </Border>
+        </Canvas>
+
+    </Grid>
+</UserControl>

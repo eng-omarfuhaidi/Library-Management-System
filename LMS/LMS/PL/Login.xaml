@@ -1,0 +1,19 @@
+﻿<Window   x:Class="LMS.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LMS"
+        mc:Ignorable="d"
+        Title="تسجيل الدخول" Height="450" Width="800" FlowDirection="RightToLeft" Loaded="Window_Loaded"  WindowStartupLocation="CenterScreen" WindowState="Normal">
+    <Grid Focusable="True">
+        <TextBlock Text="مرحبا بكم في نظام إدارة المكتبات " Margin="245,116,254,267" FontFamily="Segoe UI Semibold " FontWeight="Bold" FontStyle="Normal" FontSize="18"/>
+        <TextBox Name="txt_Username" GotFocus="txt_Username_GotFocus"  Keyboard.GotKeyboardFocus="txt_Username_GotKeyboardFocus" HorizontalAlignment="Left" Height="24" Margin="315,192,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="180" ForceCursor="True" TabIndex="1" Focusable="True" AcceptsTab="True" AutoWordSelection="True" AutomationProperties.IsRequiredForForm="True" />
+        <Label Content="اسم المستخدم" HorizontalAlignment="Left" Margin="160,190,0,0" VerticalAlignment="Top" Width="120"  FontFamily="Segoe UI Semibold "  FontSize="18"/>
+        <PasswordBox Name="txt_password" HorizontalAlignment="Left" Height="24" Margin="315,248,0,0"   VerticalAlignment="Top" Width="180" TabIndex="2" IsTabStop="False" />
+        <Label Content="كلمة المرور" HorizontalAlignment="Left" Margin="184,248,0,0" VerticalAlignment="Top" Width="96"  FontFamily="Segoe UI Semibold "  FontSize="18"/>
+        <Button Name="btn_login" Content="دخول" HorizontalAlignment="Left" Margin="420,337,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.213,0.172" Click="btn_login_Click" IsDefault="True"/>
+        <Button x:Name="btn_Cancel" Content="إلغاء" HorizontalAlignment="Left" Margin="315,337,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.213,0.172"/>
+
+    </Grid>
+</Window>

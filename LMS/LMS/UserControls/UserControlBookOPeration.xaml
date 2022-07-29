@@ -1,0 +1,85 @@
+﻿<UserControl x:Class="LMS.UserControlBookOPeration"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LMS"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" Height="490.359" Width="999.776">
+    <UserControl.Resources>
+        <Style x:Key="imagstyle" TargetType="{x:Type Image}">
+            <Setter Property ="Width" Value="50"/>
+            <Setter Property="Height" Value="50" />
+            <Setter Property="Margin" Value="20 30 20 0"/>
+        </Style>
+        <Style x:Key="textstyle"  TargetType="{x:Type Label}">
+            <Setter Property="FontSize" Value="14"  />
+            <Setter Property="FontFamily" Value="Yu Gothic Medium"/>
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="mystyleborder" TargetType="{x:Type Border}" >
+            <Setter Property="CornerRadius" Value="20 0 20 0"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0.5,1">
+                        <GradientStop Offset="0.1" Color="#ff2d8aef"/>
+                        <GradientStop Offset="4" Color="Black"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+
+            </Setter>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="125"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                <GradientStop Offset="0.1" Color="Aquamarine"/>
+                                <GradientStop Offset="4" Color="Black"/>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="RenderTransform">
+                        <Setter.Value>
+                            <ScaleTransform ScaleX="1.13" ScaleY="1.13"/>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Canvas Margin="55,0,0,0">
+            <Border x:Name="book_management"   Style="{StaticResource ResourceKey=mystyleborder}" Height="Auto" Width="Auto" MouseLeftButtonDown="book_management_MouseLeftButtonDown" Canvas.Left="375" Canvas.Top="76">
+                <StackPanel Orientation="Vertical">
+                    <materialDesign:PackIcon Kind="LibraryBooks" Width="63" Height="82" Margin="42,5,0,0" Foreground="Wheat"/>
+                    <Label Content="إدارة الكتب" Style="{StaticResource ResourceKey=textstyle}" Margin="39,0"/>
+                </StackPanel>
+            </Border>
+            <Border x:Name="br_addbooks"   Style="{StaticResource ResourceKey=mystyleborder}" Height="119" Width="150" Canvas.Left="699" Canvas.Top="76" MouseLeftButtonDown="br_addbooks_MouseLeftButtonDown">
+                <StackPanel Orientation="Vertical">
+                    <materialDesign:PackIcon Kind="NewBox" Height="87" Width="66" Foreground="Wheat" Margin="38,0,0,0"/>
+                    <Label Content="إضافة كتاب " Style="{StaticResource ResourceKey=textstyle}" Margin="34,0,40,50" />
+                </StackPanel>
+            </Border>
+            <Border x:Name="br_addcopy"   Style="{StaticResource ResourceKey=mystyleborder}" Height="119" Width="150" Canvas.Left="44" Canvas.Top="76" MouseLeftButtonDown="br_addcopy_MouseLeftButtonDown">
+                <StackPanel Orientation="Vertical">
+                    <materialDesign:PackIcon Kind="ContentCopy" Height="87" Width="66" Foreground="Wheat" Margin="38,0,0,0"/>
+                    <Label Content="إضافة نسخة لكتاب " Style="{StaticResource ResourceKey=textstyle}" Margin="10,0,10,50" Width="130" />
+                </StackPanel>
+            </Border>
+            <Border x:Name="book_management_Copy"   Style="{StaticResource ResourceKey=mystyleborder}" Height="Auto" Width="Auto" MouseLeftButtonDown="book_management_MouseLeftButtonDown" Canvas.Left="375" Canvas.Top="277">
+                <StackPanel Orientation="Vertical">
+                    <materialDesign:PackIcon Kind="LibraryBooks" Width="63" Height="82" Margin="42,5,0,0" Foreground="Wheat"/>
+                    <Label Content="إدارة النسخ" Style="{StaticResource ResourceKey=textstyle}" Margin="39,0"/>
+                </StackPanel>
+            </Border>
+        </Canvas>
+
+    </Grid>
+</UserControl>

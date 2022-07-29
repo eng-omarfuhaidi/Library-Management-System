@@ -1,0 +1,139 @@
+﻿'LMS.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'E:\مشروع التخرج\LMS\LMS\bin\Debug\LMS.exe'. Symbols loaded.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework\v4.0_4.0.0.0__31bf3856ad364e35\PresentationFramework.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\WindowsBase\v4.0_4.0.0.0__31bf3856ad364e35\WindowsBase.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\PrivateAssemblies\Runtime\Microsoft.VisualStudio.Debugger.Runtime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Step into: Stepping over non-user code 'LMS.App..ctor'
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Step into: Stepping over non-user code 'LMS.App.InitializeComponent'
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'E:\مشروع التخرج\LMS\LMS\bin\Debug\MaterialDesignThemes.Wpf.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'E:\مشروع التخرج\LMS\LMS\bin\Debug\MaterialDesignColors.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ar_b77a5c561934e089\mscorlib.resources.dll'. Module was built without symbols.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework.Aero2\v4.0_4.0.0.0__31bf3856ad364e35\PresentationFramework.Aero2.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework.resources\v4.0_4.0.0.0_ar_31bf3856ad364e35\PresentationFramework.resources.dll'. Module was built without symbols.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationCore.resources\v4.0_4.0.0.0_ar_31bf3856ad364e35\PresentationCore.resources.dll'. Module was built without symbols.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework-SystemXml\v4.0_4.0.0.0__b77a5c561934e089\PresentationFramework-SystemXml.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Users\OMERAB~1\AppData\Local\Temp\VisualStudio.XamlDiagnostics.11452\Microsoft.VisualStudio.DesignTools.WpfTap.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\SMDiagnostics\v4.0_4.0.0.0__b77a5c561934e089\SMDiagnostics.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Internals\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Internals.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationProvider\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationProvider.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization.resources\v4.0_4.0.0.0_ar_b77a5c561934e089\System.Runtime.Serialization.resources.dll'. Module was built without symbols.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationTypes\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationTypes.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\SysNative\WinMetadata\Windows.UI.winmd'. Module was built without symbols.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\SysNative\WinMetadata\Windows.Foundation.winmd'. Module was built without symbols.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.InteropServices.WindowsRuntime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.InteropServices.WindowsRuntime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.WindowsRuntime\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.WindowsRuntime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.resources\v4.0_4.0.0.0_ar_b77a5c561934e089\System.Data.resources.dll'. Module was built without symbols.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\System.Transactions\v4.0_4.0.0.0__b77a5c561934e089\System.Transactions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.Wrapper.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Exception thrown: 'System.Data.SqlClient.SqlException' in System.Data.dll
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Caching\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Caching.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Exception thrown: 'System.InvalidOperationException' in System.Data.dll
+'LMS.exe' (CLR v4.0.30319: LMS.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Transactions.resources\v4.0_4.0.0.0_ar_b77a5c561934e089\System.Transactions.resources.dll'. Module was built without symbols.
+System.Transactions Critical: 0 : <TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Critical"><TraceIdentifier>http://msdn.microsoft.com/TraceCodes/System/ActivityTracing/2004/07/Reliability/Exception/Unhandled</TraceIdentifier><Description>استثناء غير معالج</Description><AppDomain>LMS.exe</AppDomain><Exception><ExceptionType>System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ExceptionType><Message>يتطلب ExecuteReader Connection مفتوحًا ومتوفرًا. حالة الاتصال الحالية هي مغلق.</Message><StackTrace>   عند System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   عند System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp;amp; task, Boolean&amp;amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   عند System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   عند System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   عند System.Data.SqlClient.SqlCommand.ExecuteReader()
+   عند LMS.Login.btn_login_Click(Object sender, RoutedEventArgs e) في E:\مشروع التخرج\LMS\LMS\PL\Login.xaml.cs:السطر 49
+   عند System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   عند System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   عند System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   عند System.Windows.UIElement.RaiseEvent(RoutedEventArgs e)
+   عند System.Windows.Controls.Primitives.ButtonBase.OnClick()
+   عند System.Windows.Controls.Button.OnClick()
+   عند System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   عند System.Windows.UIElement.OnMouseLeftButtonUpThunk(Object sender, MouseButtonEventArgs e)
+   عند System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   عند System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   عند System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   عند System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   عند System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   عند System.Windows.UIElement.OnMouseUpThunk(Object sender, MouseButtonEventArgs e)
+   عند System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   عند System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   عند System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   عند System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   عند System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   عند System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   عند System.Windows.UIElement.RaiseEvent(RoutedEventArgs args, Boolean trusted)
+   عند System.Windows.Input.InputManager.ProcessStagingArea()
+   عند System.Windows.Input.InputManager.ProcessInput(InputEventArgs input)
+   عند System.Windows.Input.InputProviderSite.ReportInput(InputReport inputReport)
+   عند System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   عند System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean&amp;amp; handled)
+   عند System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean&amp;amp; handled)
+   عند MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean&amp;amp; handled)
+   عند MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   عند System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   عند System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   عند System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   عند MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   عند MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG&amp;amp; msg)
+   عند System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   عند System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)
+   عند System.Windows.Application.RunDispatcher(Object ignore)
+   عند System.Windows.Application.RunInternal(Window window)
+   عند System.Windows.Application.Run(Window window)
+   عند System.Windows.Application.Run()
+   عند LMS.App.Main()</StackTrace><ExceptionString>System.InvalidOperationException: يتطلب ExecuteReader Connection مفتوحًا ومتوفرًا. حالة الاتصال الحالية هي مغلق.
+   عند System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   عند System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp;amp; task, Boolean&amp;amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   عند System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   عند System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   عند System.Data.SqlClient.SqlCommand.ExecuteReader()
+   عند LMS.Login.btn_login_Click(Object sender, RoutedEventArgs e) في E:\مشروع التخرج\LMS\LMS\PL\Login.xaml.cs:السطر 49
+   عند System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   عند System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   عند System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   عند System.Windows.UIElement.RaiseEvent(RoutedEventArgs e)
+   عند System.Windows.Controls.Primitives.ButtonBase.OnClick()
+   عند System.Windows.Controls.Button.OnClick()
+   عند System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   عند System.Windows.UIElement.OnMouseLeftButtonUpThunk(Object sender, MouseButtonEventArgs e)
+   عند System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   عند System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   عند System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   عند System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   عند System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   عند System.Windows.UIElement.OnMouseUpThunk(Object sender, MouseButtonEventArgs e)
+   عند System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   عند System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   عند System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   عند System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   عند System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   عند System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   عند System.Windows.UIElement.RaiseEvent(RoutedEventArgs args, Boolean trusted)
+   عند System.Windows.Input.InputManager.ProcessStagingArea()
+   عند System.Windows.Input.InputManager.ProcessInput(InputEventArgs input)
+   عند System.Windows.Input.InputProviderSite.ReportInput(InputReport inputReport)
+   عند System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   عند System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean&amp;amp; handled)
+   عند System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean&amp;amp; handled)
+   عند MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean&amp;amp; handled)
+   عند MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   عند System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   عند System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   عند System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   عند MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   عند MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG&amp;amp; msg)
+   عند System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   عند System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)
+   عند System.Windows.Application.RunDispatcher(Object ignore)
+   عند System.Windows.Application.RunInternal(Window window)
+   عند System.Windows.Application.Run(Window window)
+   عند System.Windows.Application.Run()
+   عند LMS.App.Main()</ExceptionString><DataItems><Data></Data></DataItems></Exception></TraceRecord>
+An unhandled exception of type 'System.InvalidOperationException' occurred in System.Data.dll
+يتطلب ExecuteReader Connection مفتوحًا ومتوفرًا. حالة الاتصال الحالية هي مغلق.
+
+The program '[11452] LMS.exe: Program Trace' has exited with code 0 (0x0).
+The program '[11452] LMS.exe' has exited with code -1 (0xffffffff).

@@ -1,0 +1,247 @@
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\LMS.csprojAssemblyReference.cache
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\AddBookWindow.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Borrowers_list.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Login.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\MainWindow.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Trying\MainView.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Trying\NavigationControl.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Trying\UserControl1.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Trying\UserControl2.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Trying\MainWindow.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Uc_Books.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UpdateBookWindow.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControl1.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAcceptRequsest.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddAuothor.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddBook.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddBorrowing.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddCatogray.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddCopy.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddExaminer.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddLanguage.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddPublisher.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddTranslator.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBookManagement.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBookOPeration.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBooks.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBorrwing.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlCreate.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlHome.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddType.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlNewBorrwer.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlPrivlages.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlUsers.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\App.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\LMS_MarkupCompile.cache
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\LMS_MarkupCompile.lref
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\App.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\AddBookWindow.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Borrowers_list.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Login.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\MainWindow.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Trying\MainView.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Trying\NavigationControl.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Trying\UserControl1.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Trying\UserControl2.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Trying\MainWindow.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\Uc_Books.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UpdateBookWindow.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControl1.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAcceptRequsest.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddAuothor.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddBook.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddBorrowing.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddCatogray.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddCopy.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddExaminer.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddLanguage.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddPublisher.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddTranslator.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBookManagement.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBookOPeration.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBooks.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlBorrwing.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlCreate.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlHome.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlAddType.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlNewBorrwer.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\UserControlUsers.baml
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\LMS.exe
+E:\مشروع التخرج\LMS\NavigationDrawerPopUpMenu2\obj\Debug\LMS.pdb
+E:\مشروع التخرج\LMS\LMS\obj\Debug\LMS.csprojAssemblyReference.cache
+E:\مشروع التخرج\LMS\LMS\obj\Debug\App.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\LMS_MarkupCompile.cache
+E:\مشروع التخرج\LMS\LMS\obj\Debug\LMS_MarkupCompile.lref
+E:\مشروع التخرج\LMS\LMS\obj\Debug\Dictionary.g.cs
+E:\مشروع التخرج\LMS\LMS\bin\Debug\LMS.exe.config
+E:\مشروع التخرج\LMS\LMS\bin\Debug\LMS.exe
+E:\مشروع التخرج\LMS\LMS\bin\Debug\LMS.pdb
+E:\مشروع التخرج\LMS\LMS\bin\Debug\MaterialDesignColors.dll
+E:\مشروع التخرج\LMS\LMS\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\مشروع التخرج\LMS\LMS\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\مشروع التخرج\LMS\LMS\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\App.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\Dictionary.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\LMS.g.resources
+E:\مشروع التخرج\LMS\LMS\obj\Debug\LMS.Properties.Resources.resources
+E:\مشروع التخرج\LMS\LMS\obj\Debug\LMS.csproj.GenerateResource.cache
+E:\مشروع التخرج\LMS\LMS\obj\Debug\LMS.csproj.CopyComplete
+E:\مشروع التخرج\LMS\LMS\obj\Debug\LMS.exe
+E:\مشروع التخرج\LMS\LMS\obj\Debug\LMS.pdb
+E:\مشروع التخرج\LMS\LMS\obj\Debug\PL\MainLoan.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\PL\MainLoan.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\PL\MainBook.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\PL\MainUser.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\PL\MainBook.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\PL\MainUser.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\PL\MainWindow.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\PL\MainWindow.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\Borrowers_list.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\Uc_Books.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UpdateBookWindow.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControl1.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAcceptRequsest.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddAuothor.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddBook.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddBorrowing.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddCatogray.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddCopy.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddExaminer.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddLanguage.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddPublisher.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddTranslator.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlBookManagement.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlBookOPeration.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlBooks.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlBorrwing.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlCreate.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlHome.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddType.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlLoanManagement.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlNewBorrwer.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlPRIVLIGS.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlUsers.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\Borrowers_list.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\Uc_Books.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UpdateBookWindow.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControl1.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAcceptRequsest.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddAuothor.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddBook.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddBorrowing.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddCatogray.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddCopy.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddExaminer.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddLanguage.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddPublisher.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddTranslator.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlBookManagement.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlBookOPeration.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlBooks.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlBorrwing.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlCreate.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlHome.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlAddType.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlLoanManagement.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlNewBorrwer.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlPRIVLIGS.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlUsers.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\PL\Login.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\PL\Login.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlNotifications.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlNotifications.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\PL\UserControlReturnBooks.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\PL\UserControlReturnBooks.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlcopymanagement.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlcopymanagement.baml
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlreport.g.cs
+E:\مشروع التخرج\LMS\LMS\obj\Debug\UserControls\UserControlreport.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\bin\Debug\LMS.exe.config
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\bin\Debug\LMS.exe
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\bin\Debug\LMS.pdb
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\bin\Debug\MaterialDesignColors.dll
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\bin\Debug\MaterialDesignThemes.Wpf.dll
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\bin\Debug\MaterialDesignThemes.Wpf.pdb
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\bin\Debug\MaterialDesignThemes.Wpf.xml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\LMS.csprojAssemblyReference.cache
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\PL\UserControlReturnBooks.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\Borrowers_list.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\Dictionary.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\PL\Login.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\PL\MainBook.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\PL\MainWindow.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\PL\MainLoan.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\PL\MainUser.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\Uc_Books.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UpdateBookWindow.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControl1.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAcceptRequsest.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddAuothor.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddBook.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddBorrowing.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddCatogray.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddCopy.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddExaminer.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddLanguage.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddPublisher.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddTranslator.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlBookManagement.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlBookOPeration.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlBooks.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlBorrwing.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlcopymanagement.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlCreate.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlHome.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddType.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlLoanManagement.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlNewBorrwer.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlNotifications.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlPRIVLIGS.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlreport.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlUsers.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\App.g.cs
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\LMS_MarkupCompile.cache
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\LMS_MarkupCompile.lref
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\App.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\PL\UserControlReturnBooks.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\Borrowers_list.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\Dictionary.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\PL\Login.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\PL\MainBook.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\PL\MainWindow.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\PL\MainLoan.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\PL\MainUser.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\Uc_Books.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UpdateBookWindow.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControl1.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAcceptRequsest.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddAuothor.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddBook.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddBorrowing.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddCatogray.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddCopy.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddExaminer.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddLanguage.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddPublisher.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddTranslator.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlBookManagement.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlBookOPeration.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlBooks.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlBorrwing.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlcopymanagement.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlCreate.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlHome.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlAddType.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlLoanManagement.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlNewBorrwer.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlNotifications.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlPRIVLIGS.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlreport.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\UserControls\UserControlUsers.baml
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\LMS.g.resources
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\LMS.Properties.Resources.resources
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\LMS.csproj.GenerateResource.cache
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\LMS.csproj.CopyComplete
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\LMS.exe
+H:\مشروع التخرج\اخر تحديث للمشروع\LMS\LMS\obj\Debug\LMS.pdb

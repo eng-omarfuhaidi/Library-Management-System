@@ -1,0 +1,111 @@
+﻿<UserControl x:Class="LMS.UserControlUsers"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LMS"
+             mc:Ignorable="d" Height="708" Width="1408">
+    <UserControl.Resources>
+        <Style x:Key="textstyle" TargetType="{x:Type Label}">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontFamily" Value="Segoe UI Semibold"/>
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+        <Style x:Key="startstyle" TargetType="{x:Type Label}">
+            <Setter  Property="Foreground" Value="#FFFF0101"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Height" Value="27"/>
+            <Setter Property="Width" Value="27"/>
+        </Style>
+        <Style x:Key="buttonstyle"  TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="#FF2196F3"/>
+            <Setter Property="BorderBrush" Value="#FF2196F3"/>
+            <Setter Property="Foreground" Value="#FFFFFFFF"/>
+            <Setter Property="FontSize" Value="17"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid HorizontalAlignment="Left" Width="1017" Height="542" VerticalAlignment="Top" Margin="140,90,0,0" Background="White">
+        <GroupBox  FontSize="13" FontFamily="Microsoft JhengHei UI" BorderThickness="10" Margin="528,10,0,150" HorizontalAlignment="Left" Width="360">
+            <GroupBox.Header>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20">
+
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" HorizontalAlignment="Right" Text="بيانات المستخدم" Margin="0,0,7,0"></TextBlock>
+                </Grid>
+            </GroupBox.Header>
+            <GroupBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GroupBox.RenderTransform>
+            <Canvas HorizontalAlignment="Left" Height="261" VerticalAlignment="Top" Width="340">
+
+                <Label Content="رقم المستخدم" HorizontalAlignment="Right" VerticalAlignment="Top" Width="107" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="209" Canvas.Top="-6" />
+                <Label Content="*" Canvas.Left="197"   Style="{StaticResource ResourceKey=startstyle}"/>
+                <TextBox Height="25" Foreground="Black" Width="189" IsReadOnly="True" Canvas.Left="8" x:Name="txt_User_ID"/>
+                <Label Content="كلمة المرور" HorizontalAlignment="Right" VerticalAlignment="Top" Width="107" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="209" Canvas.Top="157" />
+                <Label Content="*" Canvas.Left="197"   Style="{StaticResource ResourceKey=startstyle}" Canvas.Top="163"/>
+                <PasswordBox  Height="25" Width="189"  Foreground="Black" Canvas.Left="8" Canvas.Top="163" x:Name="txt_Password"/>
+                <Label Content="الاسم عند الدخول" HorizontalAlignment="Right" VerticalAlignment="Top" Width="129" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="206" Canvas.Top="97" />
+                <Label Content="*" Canvas.Left="197"   Style="{StaticResource ResourceKey=startstyle}" Canvas.Top="103"/>
+                <TextBox Height="25" Width="189" Foreground="Black"  Canvas.Left="8" Canvas.Top="103" x:Name="txt_Username_login"/>
+                <Label Content="اسم المستخدم" HorizontalAlignment="Right" VerticalAlignment="Top" Width="107" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="211" Canvas.Top="38" />
+                <Label Content="*" Canvas.Left="199"   Style="{StaticResource ResourceKey=startstyle}" Canvas.Top="44"/>
+                <TextBox Height="25" TextWrapping="Wrap" Width="189" Foreground="Black" Canvas.Left="10" Canvas.Top="44" x:Name="txt_User_Name"/>
+                <Canvas x:Name="can_password">
+                    <Label Content=" تأكيد كلمة المرور" HorizontalAlignment="Right" VerticalAlignment="Top" Width="133" Style="{StaticResource ResourceKey=textstyle}" Canvas.Left="209" Canvas.Top="211" />
+                    <Label Content= "*" Canvas.Left= "199"   Style="{StaticResource ResourceKey=startstyle}" Canvas.Top="217"/>
+                    <PasswordBox Height="25" Width="189" Foreground="Black"  Canvas.Left="10" Canvas.Top="217" x:Name="txt_Password2" Validation.Error="txt_Password2_Error" />
+                </Canvas>
+            </Canvas>
+        </GroupBox>
+        <GroupBox  FontSize="13" FontFamily="Microsoft JhengHei UI" BorderThickness="10" Margin="0,10,489,22" HorizontalAlignment="Right" Width="420">
+            <GroupBox.Header>
+                <Grid Margin="10,0,-10,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20">
+
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" HorizontalAlignment="Right" Text="استعراض جميع المستخدمين" Margin="0,0,7,0"></TextBlock>
+                </Grid>
+            </GroupBox.Header>
+            <GroupBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GroupBox.RenderTransform>
+            <Canvas HorizontalAlignment="Stretch" Height="443" VerticalAlignment="Top" Width="384" Visibility="Visible">
+                <TextBox x:Name="txtUBSearch"   Visibility="Visible"  Width="103" Canvas.Left="171" Canvas.Top="7"  GotFocus="txtUBSearch_GotFocus" LostFocus="txtUBSearch_LostFocus" TextChanged="txtUBSearch_TextChanged" Foreground="Black"></TextBox>
+                <TextBlock x:Name="txtSearchToolTip" Text="ابحث هنا" FontFamily="Century Gothic" Foreground="Gray" Visibility="Visible" FontSize="10" Canvas.Left="171" Canvas.Top="21"/>
+                <Image Source="C:\Users\Omer Abdulhamid\Desktop\icons\search_filled_100px.png" Height="23" Width="29" RenderTransformOrigin="1.19,0.848" Canvas.Left="137" Canvas.Top="13"></Image>
+
+                <DataGrid x:Name="dg_users"  FlowDirection="LeftToRight" Canvas.Left="9" Canvas.Top="41" Width="374" Height="400" Background="#FFF5F5F2"  MouseLeftButtonUp="dg_users_MouseLeftButtonUp" ItemsSource="{Binding}" RenderTransformOrigin="0.5,0.5" >
+                    <DataGrid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleX="-0.988"/>
+                            <RotateTransform/>
+                            <TranslateTransform X="-2.983"/>
+                        </TransformGroup>
+                    </DataGrid.RenderTransform>
+
+                </DataGrid>
+            </Canvas>
+        </GroupBox>
+        <Button Content="سجل جديد" HorizontalAlignment="Left" Margin="752,407,0,0" VerticalAlignment="Top" Width="101" Height="47"  x:Name="btn_NEW" Click="btn_NEW_Click" />
+        <Button Content="حفظ" HorizontalAlignment="Left" Margin="604,407,0,0" VerticalAlignment="Top" Width="99" Height="47"   x:Name="btn_SAVE1" Click="btn_SAVE1_Click"/>
+        <Button Content="حذف" HorizontalAlignment="Left" Margin="604,473,0,0" VerticalAlignment="Top" Width="99" Height="47"   x:Name="btn_DELET" Click="btn_DELET_Click"/>
+        <Button Content="تعديل" HorizontalAlignment="Left" Margin="754,473,0,0" VerticalAlignment="Top" Width="99" Height="47"   x:Name="btn_UPDATE" Click="btn_UPDATE_Click"/>
+
+    </Grid>
+</UserControl>
